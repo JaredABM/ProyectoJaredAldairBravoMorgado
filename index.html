@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>index</title>
+<script language="javascript">
+<!---
+var Bienvenido = "Bienvenido a mi Proyecto";
+alert (Bienvenido);
+var Suma = 518;
+function color()
+{
+	fila1.bgColor="#0066FF";
+	fila3.bgColor="#0066FF";
+	madera.bgColor="#0066FF";
+	unidad.bgColor="#0066FF";
+}
+function calcular()
+{
+	color();
+	alert ("Total del producto seleccionado = $518")
+}
+function rojo()
+{
+	t1.style.color="#572364";
+}
+
+function negro()
+{
+	t1.style.color="#000000";
+}
+//-->
+</script>
+<style type="text/css">
+.S {
+	color: #000080;
+}
+.s {
+	color: #00F;
+}
+body {
+	background-image: url(TAPIZ1.jpg);
+}
+</style>
+</head>
+<body>
+
+<center spry:hover="s">"BIENVENID@ A MI PROYECTO"</center>
+
+<h1 id="t1" onmouseover="rojo();" onmouseout="negro()";>
+
+<center><table id="Ferreteria" width="472" border="1">
+  <tr>
+    <td width="462"><p><center>Ferreteria</center></p></td>
+  </tr>
+</table>
+<center>
+<table width="425" border="1">
+  <tr>
+    <td width="209">Aparatos Sanitarios</td>
+    <td width="200">Materiales de Construcciòn</td>
+  </tr>
+</table>
+</center>
+
+<center><table id="opciones" width="200" border="1">
+  <tr id="fila1">
+    <td><p>Equipos Italianos</p></td>
+    <td>150</td>
+    <td>Ladrillos</td>
+    <td>150</td>
+  </tr>
+  <tr>
+    <td>Equipos brasileños</td>
+    <td>130</td>
+    <td>Cemento</td>
+    <td>17</td>
+  </tr>
+  <tr id="fila3">
+    <td>Equipos americanos</td>
+    <td>200</td>
+    <td>Arena</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Agregados</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td id="madera">Madera</td>
+    <td id="unidad">3</td>
+  </tr>
+</table>
+</center>
+</h1>
+<h1>
+<br>
+<center><button onclick="color();"> Seleccionar opcion. </button>
+<button onclick="calcular();"> Calcular costo. </button>
+<button onclick="self.close();">
+Salir
+</button>
+</center>
+</body>
+</html>
